@@ -1,0 +1,6 @@
+/*center-center*/
+.c_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

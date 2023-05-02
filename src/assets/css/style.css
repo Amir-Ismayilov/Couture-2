@@ -1,0 +1,28 @@
+/*Обнуление CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    color: #000;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*Body-Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
